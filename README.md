@@ -30,14 +30,33 @@ Soy un **Desarrollador Full Stack** apasionado por crear soluciones eficientes y
 
 ## 🚀 Proyectos Destacados
 
-### [Proyecto 1](https://github.com/tuusuario/proyecto1)
-Descripción breve del proyecto 1. Puedes incluir una imagen o GIF aquí.
+### 🎨 Portfolio Web Personal
 
-### [Proyecto 2](https://github.com/tuusuario/proyecto2)
-Descripción breve del proyecto 2. Puedes incluir una imagen o GIF aquí.
+![Portfolio](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
-### [Proyecto 3](https://github.com/tuusuario/proyecto3)
-Descripción breve del proyecto 3. Puedes incluir una imagen o GIF aquí.
+> Portafolio profesional desarrollado con React y Bootstrap, con enfoque responsive y animaciones suaves.
+
+🔗 [Ver Repositorio](https://github.com/tuusuario/portfolio)
+
+---
+
+### 🛒 E-commerce Minimalista
+
+<img src="https://user-images.githubusercontent.com/674621/125116943-35b4c600-e0d8-11eb-8b88-2dc811cdd6f9.gif" width="600px" alt="E-commerce demo"/>
+
+> Proyecto de tienda en línea desarrollado con Vue.js + Firebase para autenticación y base de datos.
+
+🔗 [Ver Repositorio](https://github.com/tuusuario/ecommerce-app)
+
+---
+
+### 📊 Dashboard Interactivo
+
+![Dashboard](https://media.giphy.com/media/Ll22OhMLAlVDb8UQWe/giphy.gif)
+
+> Dashboard dinámico creado con Next.js y Chart.js para la visualización de datos en tiempo real.
+
+🔗 [Ver Repositorio](https://github.com/tuusuario/dashboard-app)
 
 ---
 
