@@ -13,7 +13,7 @@ Me apasiona aprender constantemente y mejorar mis habilidades. Actualmente traba
 - 🌱 Siempre estoy buscando aprender y explorar nuevas tecnologías.
 - 👯 Me encanta colaborar en proyectos open source y mejorar como desarrollador.
 - ✔ Estoy aquí para ayudar y compartir lo que sé.
-- 📫 Puedes contactarme en: <a href="mailto:yejo182710@gmail.com">amaury.devsoft@gmail.com</a>
+- 📫 Puedes contactarme en: <a href="mailto:yejo182710@gmail.com">yejo182710@gmail.com</a>
 
 ---
 
