@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MúsicaApp - Descubre nueva música</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-left">
+          <a href="/" class="logo">MúsicaApp</a>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li><a href="#" class="nav-link">Inicio</a></li>
+              <li><a href="#" class="nav-link">Explorar</a></li>
+              <li><a href="#" class="nav-link">Biblioteca</a></li>
+              <li><a href="#" class="nav-link">Radio</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-right">
+          <button class="btn btn-outline">Iniciar Sesión</button>
+          <button class="btn btn-primary">Registrarse</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">Descubre nueva música todos los días</h1>
+              <p class="hero-description">Miles de artistas y canciones esperan por ti. Escucha tus favoritos y descubre nuevos sonidos.</p>
+              <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">Escuchar ahora</button>
+                <button class="btn btn-outline btn-lg">Ver planes</button>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="hero-image-wrapper">
+                <img src="https://placehold.co/400x400/1a1a1a/cccccc?text=Collage+de+artistas" alt="Collage de artistas">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="artists-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Artistas Populares</h2>
+            <a href="#" class="view-all">Ver todos <span class="arrow-icon">→</span></a>
+          </div>
+          <div class="artists-grid">
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=Bad+Bunny" alt="Bad Bunny">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">Bad Bunny</span>
+            </a>
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=Karol+G" alt="Karol G">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">Karol G</span>
+            </a>
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=J+Balvin" alt="J Balvin">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">J Balvin</span>
+            </a>
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=Shakira" alt="Shakira">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">Shakira</span>
+            </a>
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=Rosalía" alt="Rosalía">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">Rosalía</span>
+            </a>
+            <a href="#" class="artist-card">
+              <div class="artist-avatar-container">
+                <div class="artist-avatar">
+                  <img src="https://placehold.co/128x128/1a1a1a/cccccc?text=Daddy+Yankee" alt="Daddy Yankee">
+                </div>
+                <div class="play-overlay">
+                  <span class="play-icon">▶</span>
+                </div>
+              </div>
+              <span class="artist-name">Daddy Yankee</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="playlists-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Listas Destacadas</h2>
+            <a href="#" class="view-all">Ver todas <span class="arrow-icon">→</span></a>
+          </div>
+          <div class="playlists-grid">
+            <div class="playlist-card">
+              <div class="playlist-image-container">
+                <img src="https://placehold.co/300x300/1a1a1a/cccccc?text=Top+Latino" alt="Top Latino">
+                <div class="play-overlay">
+                  <button class="play-button">▶</button>
+                </div>
+              </div>
+              <div class="playlist-content">
+                <h3 class="playlist-title">Top Latino</h3>
+                <p class="playlist-description">Lo mejor del reggaeton y música latina</p>
+              </div>
+              <div class="playlist-footer">
+                <span class="playlist-songs">50 canciones</span>
+              </div>
+            </div>
+            <div class="playlist-card">
+              <div class="playlist-image-container">
+                <img src="https://placehold.co/300x300/1a1a1a/cccccc?text=Clásicos+del+Rock" alt="Clásicos del Rock">
+                <div class="play-overlay">
+                  <button class="play-button">▶</button>
+                </div>
+              </div>
+              <div class="playlist-content">
+                <h3 class="playlist-title">Clásicos del Rock</h3>
+                <p class="playlist-description">Rock legendario de todos los tiempos</p>
+              </div>
+              <div class="playlist-footer">
+                <span class="playlist-songs">45 canciones</span>
+              </div>
+            </div>
+            <div class="playlist-card">
+              <div class="playlist-image-container">
+                <img src="https://placehold.co/300x300/1a1a1a/cccccc?text=Éxitos+Pop" alt="Éxitos Pop">
+                <div class="play-overlay">
+                  <button class="play-button">▶</button>
+                </div>
+              </div>
+              <div class="playlist-content">
+                <h3 class="playlist-title">Éxitos Pop</h3>
+                <p class="playlist-description">Los hits pop más escuchados</p>
+              </div>
+              <div class="playlist-footer">
+                <span class="playlist-songs">60 canciones</span>
+              </div>
+            </div>
+            <div class="playlist-card">
+              <div class="playlist-image-container">
+                <img src="https://placehold.co/300x300/1a1a1a/cccccc?text=Electrónica+Mix" alt="Electrónica Mix">
+                <div class="play-overlay">
+                  <button class="play-button">▶</button>
+                </div>
+              </div>
+              <div class="playlist-content">
+                <h3 class="playlist-title">Electrónica Mix</h3>
+                <p class="playlist-description">Beats electrónicos para bailar</p>
+              </div>
+              <div class="playlist-footer">
+                <span class="playlist-songs">40 canciones</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="music-player">
+      <div class="container player-container">
+        <div class="player-left">
+          <img src="https://placehold.co/56x56/1a1a1a/cccccc?text=Album" alt="Album cover" class="current-album">
+          <div class="current-song-info">
+            <h4 class="current-song-title">Canción Actual</h4>
+            <p class="current-song-artist">Artista</p>
+          </div>
+          <button class="icon-button like-button">♥</button>
+        </div>
+
+        <div class="player-center">
+          <div class="player-controls">
+            <button class="icon-button shuffle-button">⇄</button>
+            <button class="icon-button prev-button">⏮</button>
+            <button class="play-pause-button">▶</button>
+            <button class="icon-button next-button">⏭</button>
+            <button class="icon-button repeat-button">🔁</button>
+          </div>
+          <div class="progress-container">
+            <span class="time current-time">1:23</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 30%"></div>
+            </div>
+            <span class="time total-time">4:56</span>
+          </div>
+        </div>
+
+        <div class="player-right">
+          <button class="icon-button volume-button">🔊</button>
+          <div class="volume-slider">
+            <div class="volume-progress" style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3 class="footer-title">MúsicaApp</h3>
+            <p class="footer-description">La mejor plataforma para descubrir y disfrutar de música sin límites.</p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Compañía</h4>
+            <ul class="footer-links">
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Empleos</a></li>
+              <li><a href="#">Para artistas</a></li>
+              <li><a href="#">Inversores</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Recursos</h4>
+            <ul class="footer-links">
+              <li><a href="#">Soporte</a></li>
+              <li><a href="#">Aplicación móvil</a></li>
+              <li><a href="#">Reproductor web</a></li>
+              <li><a href="#">Comunidad</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-heading">Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Privacidad</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Licencias</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p class="copyright">© 2025 MúsicaApp. JOSE MIGUEL OLIVO ZABALETA, derechos reservados.</p>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="Js/Script.js"></script>
+</body>
+</html>
